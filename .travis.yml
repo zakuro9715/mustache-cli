@@ -7,5 +7,6 @@ env:
     - CGO_ENABLED=0
 install: true
 script:
+  - go get
   - go build
   - go test
